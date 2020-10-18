@@ -17,7 +17,7 @@ const Gallery = () => {
 
   const GalleryData = () =>
     galleryData.map((item) => (
-      <div class={`pic pic-${item} ${active == item ? "active" : status}`}>
+      <div class={`pic pic-${item} ${active === item ? "active" : status}`}>
         <img
           src={`https://100dayscss.com/codepen/40-${item}.jpg`}
           alt=""

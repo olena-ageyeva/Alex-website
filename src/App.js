@@ -21,7 +21,12 @@ function App() {
           <Nav.Link href="/shop">Shop</Nav.Link>
         </Nav>
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>10/17/2020 😷</Navbar.Text>
+          <Navbar.Text>
+            10/17/2020{" "}
+            <span role="img" aria-label="img">
+              😷
+            </span>
+          </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
       <Switch>
