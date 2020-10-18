@@ -1,8 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Navbar, Nav } from "react-bootstrap";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Home/Home";
 import Drawings from "./Drawings/Drawings";
@@ -11,7 +10,6 @@ import Learn from "./Learn/Learn";
 import Shop from "./Shop/Shop";
 
 function App() {
-  const Placeholder = () => <p>Placeholder</p>;
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -23,7 +21,7 @@ function App() {
           <Nav.Link href="/shop">Shop</Nav.Link>
         </Nav>
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>???</Navbar.Text>
+          <Navbar.Text>10/17/2020 😷</Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
       <Switch>
